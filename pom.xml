@@ -11,6 +11,10 @@
     <packaging>pom</packaging>
     <version>0.0.1-RELEASE</version>
 
+    <name>fastcode-commons-jpa</name>
+    <description>Provide several useful methods based on spring-data-jpa, make it more easier to use.</description>
+    <url>https://github.com/dream83619/fastcode-commons</url>
+
     <modules>
         <module>fastcode-commons-jpa</module>
     </modules>
@@ -41,7 +45,19 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>attach-sources</id>
+                        <phase>install</phase>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
     </build>
-
 </project>
