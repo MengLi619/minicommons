@@ -93,3 +93,5 @@ public class Specifications<T> implements Specification<T> {
         abstract Predicate combine(CriteriaBuilder builder, Predicate... predicates);
     }
 }
+
+
