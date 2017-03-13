@@ -13,8 +13,8 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>fastcode-commons-jpa</artifactId>
 
-    <name>fastcode-commons</name>
-    <description>Parent module of fastcode commons.</description>
+    <name>fastcode-commons-jpa</name>
+    <description>Provide several useful methods based on spring-data-jpa, make it more easier to use.</description>
     <url>https://github.com/dream83619/fastcode-commons/tree/master/fastcode-commons-jpa</url>
 
     <dependencies>
@@ -32,5 +32,24 @@
         </dependency>
 
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-gpg-plugin</artifactId>
+                <version>1.5</version>
+                <executions>
+                    <execution>
+                        <id>sign-artifacts</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>sign</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
