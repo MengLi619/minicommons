@@ -1,5 +1,7 @@
 # minicommons
 
-minicommmons is a collection of some useful libraries. Including
+**minicommmons** is a collection of some useful libraries to make developement easier. 
 
-* minicommons-jpa: Wrapper of [spring-data-jpa](http://projects.spring.io/spring-data-jpa/) to make it easy to use.
+Including
+
+* minicommons-jpa: A wrapper of [spring-data-jpa](http://projects.spring.io/spring-data-jpa/) to make it easy to use.
