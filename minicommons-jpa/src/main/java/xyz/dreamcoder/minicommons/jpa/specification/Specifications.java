@@ -1,4 +1,4 @@
-package xyz.fastcode.commons.jpa.specification;
+package xyz.dreamcoder.minicommons.jpa.specification;
 
 import org.springframework.data.jpa.domain.Specification;
 

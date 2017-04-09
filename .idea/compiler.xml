@@ -7,11 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="fastcode-commons-jpa" />
+        <module name="minicommons-jpa" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="fastcode-commons" target="1.8" />
       <module name="fastcode-commons-jpa" target="1.8" />
+      <module name="minicommons" target="1.8" />
+      <module name="minicommons-jpa" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

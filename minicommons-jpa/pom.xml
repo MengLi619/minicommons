@@ -5,17 +5,17 @@
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <parent>
-        <artifactId>fastcode-commons</artifactId>
-        <groupId>xyz.fastcode</groupId>
+        <artifactId>minicommons</artifactId>
+        <groupId>xyz.dreamcoder</groupId>
         <version>0.0.1-RELEASE</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>fastcode-commons-jpa</artifactId>
+    <artifactId>minicommons-jpa</artifactId>
 
-    <name>fastcode-commons-jpa</name>
+    <name>minicommons-jpa</name>
     <description>Provide several useful methods based on spring-data-jpa, make it more easier to use.</description>
-    <url>https://github.com/dream83619/fastcode-commons/tree/master/fastcode-commons-jpa</url>
+    <url>https://github.com/dream83619/minicommons/tree/master/minicommons-jpa</url>
 
     <dependencies>
 

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/fastcode-commons.iml" filepath="$PROJECT_DIR$/fastcode-commons.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fastcode-commons-jpa/fastcode-commons-jpa.iml" filepath="$PROJECT_DIR$/fastcode-commons-jpa/fastcode-commons-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/minicommons.iml" filepath="$PROJECT_DIR$/minicommons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/minicommons-jpa/fastcode-commons-jpa.iml" filepath="$PROJECT_DIR$/minicommons-jpa/fastcode-commons-jpa.iml" />
     </modules>
   </component>
 </project>
