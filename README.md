@@ -5,3 +5,4 @@
 Including
 
 * minicommons-jpa: A wrapper of [spring-data-jpa](http://projects.spring.io/spring-data-jpa/) to make it easy to use.
+test
